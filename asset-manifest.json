@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cars/static/css/main.b64c92e6.css",
-    "main.js": "/Cars/static/js/main.6acae7cd.js",
+    "main.css": "/Cars/static/css/main.8121e5c2.css",
+    "main.js": "/Cars/static/js/main.e05f3579.js",
     "static/js/453.582ee14a.chunk.js": "/Cars/static/js/453.582ee14a.chunk.js",
     "static/media/for2.webp": "/Cars/static/media/for2.185e2923ec345449b328.webp",
     "static/media/crystaseat.webp": "/Cars/static/media/crystaseat.98ded6e352f54d906ef0.webp",
@@ -50,12 +50,12 @@
     "static/media/facebook.png": "/Cars/static/media/facebook.49e67d43221b6bb1aa86.png",
     "static/media/back3.png": "/Cars/static/media/back3.795e189a9df231ef728f.png",
     "index.html": "/Cars/index.html",
-    "main.b64c92e6.css.map": "/Cars/static/css/main.b64c92e6.css.map",
-    "main.6acae7cd.js.map": "/Cars/static/js/main.6acae7cd.js.map",
+    "main.8121e5c2.css.map": "/Cars/static/css/main.8121e5c2.css.map",
+    "main.e05f3579.js.map": "/Cars/static/js/main.e05f3579.js.map",
     "453.582ee14a.chunk.js.map": "/Cars/static/js/453.582ee14a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64c92e6.css",
-    "static/js/main.6acae7cd.js"
+    "static/css/main.8121e5c2.css",
+    "static/js/main.e05f3579.js"
   ]
 }
