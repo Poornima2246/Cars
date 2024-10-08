@@ -16,8 +16,8 @@ height: 100%;
  
 #contact { 
  
-   background-size: cover;
-   min-height: 100vh;
+  background-size: cover;
+   
   width: 100%;
   background-image: url('../Asset/contact2.png');
   background-repeat: no-repeat;

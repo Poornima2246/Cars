@@ -39,11 +39,12 @@ function Contact() {
   };
   return (
     <div className= ' ' id='contact'>
-       <div className='container flex flex-wrap py-10 md:py-0 justify-center '>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 ml-0 md:ml-10 mt-10 md:mt-20 bg-whit  items-center'>
+       <div className=' flex w-full h-screen py-10 md:py-0  justify-center '>
+      
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 ml-0 md:ml-10 mt-10 md:mt-20 bg-whit  items-center '>
         
         {/* Form */}
-        <form className='flex-1  ' id='form' onSubmit={onSubmit}>
+        <form className='flex ' id='form' onSubmit={onSubmit}>
           <div className='p-10 w-full md:w-3/4 ml-0 md:ml-44  '>
 
             <div className=" flex-wrap relative mb-3">
@@ -94,7 +95,7 @@ function Contact() {
         </form>
 
         {/* Contact Information */}
-        <div className='flex-1 w-full md:w-72 h-68 bg-white p-6 -mt-10'>
+        <div className='  w-full md:w-72 h-68 bg-white p-6 -mt-10'>
           <h1 className='text-xl font-semibold mb-4 text-center'>Contact Information</h1>
           <div className='flex flex-col'>
             <div className='flex items-center mb-3'>
@@ -120,6 +121,7 @@ function Contact() {
           </div>
 
         </div>
+
       </div>  
     </div>
   );
