@@ -3,12 +3,18 @@ import React from 'react'
 import cus1 from '../Asset/cust1.png';
 import cus2 from '../Asset/cust2.png';
 import cus3 from '../Asset/cust3.png';
+import { motion } from 'framer-motion';
 
 function Servicenow() {
   return (
     <div className='z-[1]'>
     <div class="flex my-8 items-center  relative justify-center bg-white">
-    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+    <motion.div 
+    viewport ={{once: true}}
+    initial={{y:-50 , opacity:0}}
+    whileInView= {{y:0, opacity: 1 }}
+    transition={{delay:1.2 , duration: 1.5}}
+    class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
 
       {/* 1st image */}
       <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-slate-800 ">
@@ -51,7 +57,7 @@ function Servicenow() {
       </div>
 
 
-    </div>
+    </motion.div>
   </div>
   </div>
   

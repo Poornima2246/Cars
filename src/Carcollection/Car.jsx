@@ -8,15 +8,22 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import Carcollection from '../Carcollection/Carcollection';
 import data from '../Data/Collect1.js';
+import { delay, motion , inView} from "framer-motion";
 
 
  function Car() {
   return (
     <div className='relative '>
-      <div className='text-center items-center text-2xl'>
+      <div 
+       className='text-center items-center text-2xl'>
         <h1>Car Collection</h1>
         </div>
-   <div className='swiper m-0 '>
+   <motion.div 
+  //  initial={{x: -100 , opacity: 0}}
+  //  whileInView ={{ x: 0 , opacity: 1}}
+  //  viewport ={{once: true}}
+  //  transistion ={{delay: 4 , transistion: 3}}
+   className='swiper m-0 '>
      
     <Swiper
      effect={'coverflow'}
@@ -54,7 +61,7 @@ import data from '../Data/Collect1.js';
                <div className="swiper-pagination"></div>
             
   </Swiper>
-  </div>
+  </motion.div>
   </div>
   )
 }
