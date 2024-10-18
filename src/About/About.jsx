@@ -8,10 +8,10 @@ export default function About() {
   return (
     <div className='z-[-1]  bg-blend-overlay	my-10 relative p-5'>
       <motion.h1 
-      initial={{x: -50 , opacity:0 }}
-      whileInView ={{x:0 , opacity: 1}}
+      initial={{y: -50 , opacity:0 }}
+      whileInView ={{y:0 , opacity: 1}}
+      transition  ={{delay: 2 , duration: 2}}
       viewport ={{once: true}}
-      transition  ={{delay: 1 , duration: 0.5}}
       className='text-center justify-center  text-2xl font-semibold text-black'>About Us</motion.h1>
      
      <div className=  'm-5 flex flex-col lg:flex-row  '> 
@@ -22,8 +22,8 @@ export default function About() {
 
        loop autoPlay muted playsInline
        initial={{x: -50 , opacity:0 }}
-       viewport ={{once: true}}
        whileInView ={{x:0 , opacity: 1}}
+       viewport ={{once: true}}
        transition  ={{delay: 1.5 , duration: 2}}
      >
      </motion.video> 

@@ -14,7 +14,7 @@ function Nav() {
   return (
     <nav className="w-full fixed top-0 left-0 z-50 bg-black bg-opacity-70" id="Nav">
       <div className="w-full px-0">
-        <div className="relative flex h-16 items-center justify-between bg-black bg-opacity-30">
+        <div className="relative flex h-16 items-center justify-between bg-black bg-opacity-80">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button */}
             <button
